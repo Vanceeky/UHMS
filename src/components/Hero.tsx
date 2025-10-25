@@ -16,7 +16,7 @@ const Hero = () => {
       {/* Background (Video or Image) */}
       <motion.div style={{ y }} className="absolute inset-0 z-0 overflow-hidden">
         <img
-          src="/hero-hotel1.jpg" // <--- your image in public/images/
+          src="/9.jpg" // <--- your image in public/images/
           alt="GoStay Hotel"
           className="w-full h-full object-cover"
         />
@@ -30,8 +30,14 @@ const Hero = () => {
         transition={{ duration: 1 }}
         className="absolute inset-0 z-10 flex flex-col items-center justify-center text-center text-white px-4"
       >
+          {/* Logo at the top */}
+        <img
+          src="/logo.png"
+          alt="Hotel Le Duc Logo"
+          className="w-50 h-50 mb-4 object-contain"
+        />
         <h1 className="text-5xl md:text-7xl font-serif tracking-wide mb-4 text-white">
-          GoStay Hotel
+          Hotel Le Duc
         </h1>
         <p className="text-lg md:text-2xl font-light mb-8">
           Redefining Comfort and Hospitality

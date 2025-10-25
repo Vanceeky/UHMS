@@ -17,7 +17,7 @@ const AboutSection = () => {
                 Where Luxury Meets Simplicity
               </h2>
               <p className="text-lg text-muted-foreground leading-relaxed">
-                At GoStay Hotel, every detail is crafted for your comfort. Experience seamless
+                At Hotel Le Duc, every detail is crafted for your comfort. Experience seamless
                 booking, elegant rooms, and exquisite dining — all managed through our unified
                 hospitality system designed to elevate your stay.
               </p>
@@ -44,7 +44,7 @@ const AboutSection = () => {
 
             <div className="relative h-96 rounded-2xl overflow-hidden shadow-elegant animate-scale-in">
               <img
-                src="/featured-room.jpg"
+                src="/pres_1.jpg"
                 alt="Luxury hotel room"
                 className="w-full h-full object-cover"
               />

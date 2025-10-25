@@ -8,13 +8,13 @@ const Footer = () => {
           {/* Logo & Description */}
           <div className="md:col-span-2">
             <div className="flex items-center space-x-3 mb-6">
-              <div className="w-12 h-12 bg-secondary rounded-lg flex items-center justify-center">
-                <span className="text-navy font-bold text-lg">GS</span>
+              <div className="rounded-lg flex items-center justify-center">
+                <img src="/logo.png" alt="Logo" className="w-15 h-15" />
               </div>
-              <span className="font-playfair text-3xl text-white">GoStay Hotel</span>
+              <span className="font-playfair text-3xl text-white">Hotel Le Duc</span>
             </div>
             <p className="font-poppins text-gray-300 mb-6 max-w-md leading-relaxed">
-              Experience luxury and comfort at GoStay Hotel. Where exceptional hospitality 
+              Experience luxury and comfort at Hotel Le Duc. Where exceptional hospitality 
               meets modern convenience, powered by our unified management system.
             </p>
             <div className="flex space-x-4">
@@ -104,7 +104,7 @@ const Footer = () => {
 
         <div className="border-t border-gray-700 pt-8 flex flex-col md:flex-row justify-between items-center">
           <div className="font-poppins text-gray-300 text-center md:text-left mb-4 md:mb-0">
-            <p>© 2025 GoStay Hotel. All Rights Reserved.</p>
+            <p>© 2025 Hotel Le Duc. All Rights Reserved.</p>
             <p className="text-sm">Powered by Unified Hospitality Management System</p>
           </div>
           <div className="flex space-x-6">

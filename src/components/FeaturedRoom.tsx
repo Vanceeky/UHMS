@@ -23,7 +23,7 @@ const FeaturedRoom = () => {
             <div className="group relative overflow-hidden rounded-2xl shadow-elegant bg-card hover:shadow-gold transition-all duration-300 ease-in-out">
               <div className="relative h-80 overflow-hidden">
                 <img
-                  src="/deluxe-room-1.jpg"
+                  src="/deluxe_1.jpg"
                   alt="Deluxe Room"
                   className="w-full h-full object-cover transform transition-transform duration-700 ease-out group-hover:scale-110"
                 />
@@ -35,11 +35,11 @@ const FeaturedRoom = () => {
                   Deluxe Room
                 </h3>
                 <p className="text-muted-foreground mb-4">
-                  Modern elegance with king bed and city views
+                  The preferred room for couples and business travelers. It features a queen-sized bed with balcony, hot and cold bath, hygiene kitÂ and cable TV.
                 </p>
                 <div className="flex items-center justify-between">
                   <span className="text-2xl font-bold text-amber-400">
-                    ₱3,500/night
+                    ₱-,---/night
                   </span>
                   <Link href="/rooms">
                     <Button variant="outline" className="cursor-pointer">View Details</Button>
@@ -52,7 +52,7 @@ const FeaturedRoom = () => {
             <div className="group relative overflow-hidden rounded-2xl shadow-elegant bg-card hover:shadow-gold transition-all duration-300 ease-in-out">
               <div className="relative h-80 overflow-hidden">
                 <img
-                  src="/executive-suite-1.jpg"
+                  src="/pres_1.jpg"
                   alt="Executive Suite"
                   className="w-full h-full object-cover transform transition-transform duration-700 ease-out group-hover:scale-110"
                 />
@@ -60,14 +60,14 @@ const FeaturedRoom = () => {
               </div>
               <div className="p-6">
                 <h3 className="text-2xl font-playfair font-semibold mb-2">
-                  Executive Suite
+                  Presidential Suite
                 </h3>
                 <p className="text-muted-foreground mb-4">
-                  Spacious suite with separate living area
+                  Our Presidential Room features a king-sized bed, sofa, bathroom, balcony, hygiene kit, colored TV and mini ref. Ideal for big groups or VIPs who wishes to relax.
                 </p>
                 <div className="flex items-center justify-between">
                   <span className="text-2xl font-bold text-amber-400">
-                    ₱6,500/night
+                    ₱-,---/night
                   </span>
                   <Link href="/rooms">
                     <Button variant="outline" className="cursor-pointer">View Details</Button>

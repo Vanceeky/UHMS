@@ -128,11 +128,11 @@ export default function RoomDetails({ params }: { params: { id: string } }) {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
             {/* Left - Reservation Summary */}
             <div className="space-y-6">
-              <Card className="bg-white shadow-md rounded-2xl">
+              <Card className="bg-white shadow-md rounded-2xl pt-4">
                 <CardHeader>
                   <CardTitle>Reservation Summary</CardTitle>
                 </CardHeader>
-                <CardContent>
+                <CardContent className="mb-3">
                   <div className="aspect-video rounded-lg overflow-hidden">
                     <img
                       src={room.image}
@@ -299,11 +299,11 @@ export default function RoomDetails({ params }: { params: { id: string } }) {
             {/* Right - Guest & Payment Form */}
             <div className="space-y-6">
               <form className="space-y-6">
-                <Card className="shadow-md rounded-2xl">
+                <Card className="shadow-md rounded-2xl pt-3">
                   <CardHeader>
                     <CardTitle>Guest Information</CardTitle>
                   </CardHeader>
-                  <CardContent className="space-y-4">
+                  <CardContent className="space-y-4 mb-4">
                     <div>
                       <Label htmlFor="guestName">Full Name *</Label>
                       <Input id="guestName" placeholder="John Doe" required className="mt-2" />
@@ -319,7 +319,7 @@ export default function RoomDetails({ params }: { params: { id: string } }) {
                   </CardContent>
                 </Card>
 
-                <Card className="shadow-md rounded-2xl">
+                <Card className="shadow-md rounded-2xl pt-3">
                   <CardHeader>
                     <CardTitle>Payment Information</CardTitle>
                     <p className="text-sm text-muted-foreground mt-2">
@@ -330,7 +330,7 @@ export default function RoomDetails({ params }: { params: { id: string } }) {
                       ) via GCash
                     </p>
                   </CardHeader>
-                  <CardContent className="space-y-4">
+                  <CardContent className="space-y-4 mb-4">
                     <div className="bg-muted p-6 rounded-lg text-center">
                       <CreditCard className="w-16 h-16 mx-auto mb-4 text-primary" />
                       <h4 className="mb-2 font-medium">Scan to Pay with GCash</h4>

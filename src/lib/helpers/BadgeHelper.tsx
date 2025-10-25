@@ -4,7 +4,7 @@ import React from "react";
 import { Badge } from "@/components/ui/badge";
 
 interface BadgeHelperProps {
-  status: "pending" | "confirmed" | "checked-in" | "checked-out";
+  status: "pending" | "confirmed" | "checked-in" | "checked-out" | "rejected";
 }
 
 const BadgeHelper: React.FC<BadgeHelperProps> = ({ status }) => {
@@ -18,6 +18,8 @@ const BadgeHelper: React.FC<BadgeHelperProps> = ({ status }) => {
         return "bg-green-100 text-green-800 border border-green-300";
       case "checked-out":
         return "bg-gray-100 text-gray-700 border border-gray-300";
+      case "rejected":
+        return "bg-red-100 text-red-800 border border-red-300";
       default:
         return "bg-gray-100 text-gray-700 border border-gray-300";
     }

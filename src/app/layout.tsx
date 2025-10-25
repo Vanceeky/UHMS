@@ -16,8 +16,12 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "GoStay Hotel",
-  description: "Redefining Comfort and Hospitality",
+
+  title: "Hotel Le Duc | A Business Hotel",
+  description: "A Business Hotel",
+  icons: {
+    icon: "/logo.png",
+  }
 };
 
 export default function RootLayout({
